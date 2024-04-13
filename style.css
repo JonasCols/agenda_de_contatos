@@ -71,7 +71,7 @@ header nav a:hover {
 }
 
 .conteudo #nome-contato {
-    width: 40%;
+    min-width: 40%;
 }
 
 .conteudo form button {
