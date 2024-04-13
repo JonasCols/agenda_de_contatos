@@ -1,0 +1,131 @@
+/* 
+    Cores da página:
+    #ffffff
+    #e8e8e8
+    #c3c6c8
+    #fee050
+    #61b4e4
+    #005cb9
+    #af8400
+    #071c2c
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 30px 0;
+    background-color: #e8e8e8;
+}
+
+header img {
+    width: 80px;
+}
+
+header h1 {
+    color: #071c2c
+}
+
+header nav a {
+    text-decoration: none;
+    color: #071c2c;
+    padding: 0 5px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: #005cb9;
+}
+
+.conteudo {
+    background-color: #005cb9;
+    color: #e8e8e8;
+    min-height: 705px;
+}
+
+.conteudo form {
+    margin: 30px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo #nome-contato, #tel-contato {
+    font-size: 24px;
+    padding: 3px;
+    border: none;
+}
+
+.conteudo #nome-contato {
+    width: 40%;
+}
+
+.conteudo form button {
+    background-color: #071c2c;
+    color:#e8e8e8;
+    font-size: 24px;
+    padding: 3px 8px;
+    cursor: pointer;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.conteudo form button:hover {
+    background-color: #e8e8e8;
+    color:#071c2c;
+}
+
+.conteudo table {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.conteudo table thead {
+    background-color: #071c2c;
+}
+
+.conteudo table thead tr th div {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo table img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.conteudo tbody {
+    background-color: #e8e8e8;
+    color: #071c2c;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #e8e8e8;
+    padding: 20px 0;
+}
+
+footer span {
+    width: 100%;
+    text-align: center;
+    color: #071c2c;
+    font-weight: 500;
+}
